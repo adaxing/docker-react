@@ -3,6 +3,7 @@ import './App.css';
 import logo from './logo.svg';
 
 function App() {
+  var today = new Date();
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        hdjjff
+        {today}
         </a>
       </header>
     </div>
